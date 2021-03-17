@@ -1,107 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Lernantino</h1>
-      <h2>Cool subtitle here!</h2>
-      <nav>
-        <ul class="navbar">
-          <li>About Me</li>
-          <li>Work</li>
-          <li>Contact Me</li>
-          <li>Resume</li>
-        </ul>
-      </nav>
-      <img src="https://www.publicdomainpictures.net/pictures/230000/velka/fence-panels-blue-wood.jpg" alt="blue fence" width=100%
-      height="250">
-    </header>
-    <main>
-      <section>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam
-          provident adipisci saepe aliquam voluptas esse, dolorem excepturi
-          iusto nesciunt fugiat. Amet quisquam laboriosam illo dolores
-          consequuntur id labore harum iusto sint minima rerum, ducimus non, nam
-          dicta doloremque repellendus voluptatum iste tenetur voluptatibus unde
-          nesciunt.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
-          molestias rerum, numquam suscipit doloribus consequatur deserunt
-          accusantium mollitia odio ex ratione sit veritatis sunt quis
-          reprehenderit quam! Consequuntur quibusdam consequatur, eaque ducimus
-          suscipit adipisci pariatur quia error, facere autem quasi?
-          Consequuntur, quisquam fuga omnis voluptatibus eligendi nam illo iusto
-          repellendus reiciendis deserunt aliquam culpa minus cupiditate dicta
-          commodi dolorem sint.
-        </p>
-      </section>
-      <section class="side-titles">
-        <h3>About Me</h3>
-        <h4>Work</h4>
-        <h5>Contact Me</h5>
-      </section>
-      <hr>
-      <section>
-        <div class="container">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Lernantino</h1>
+    <h2>Cool subtitle here!</h2>
+    <!-- navbar -->
+    <nav>
+      <ul>
+        <li><a class="nav-item" href="#about">About Me</a></li>
+        <li><a class="nav-item" href="#work">Work</a></li>
+        <li><a class="nav-item" href="#contact">Contact Me</a></li>
+        <li><a class="nav-item" href="#">Resume</a></li>
+      </ul>
+    </nav>
+    <!-- Background Image -->
+    <section>
+      <img class="fence" src="assets/css/images/fence.jpeg" alt="blue fence" width=100% height="250">
+    </section>
+  </header>
+  <main>
+    <!-- About Me -->
+    <article>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam
+        provident adipisci saepe aliquam voluptas esse, dolorem excepturi
+        iusto nesciunt fugiat. Amet quisquam laboriosam illo dolores
+        consequuntur id labore harum iusto sint minima rerum, ducimus non, nam
+        dicta doloremque repellendus voluptatum iste tenetur voluptatibus unde
+        nesciunt.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
+        molestias rerum, numquam suscipit doloribus consequatur deserunt
+        accusantium mollitia odio ex ratione sit veritatis sunt quis
+        reprehenderit quam! Consequuntur quibusdam consequatur, eaque ducimus
+        suscipit adipisci pariatur quia error, facere autem quasi?
+        Consequuntur, quisquam fuga omnis voluptatibus eligendi nam illo iusto
+        repellendus reiciendis deserunt aliquam culpa minus cupiditate dicta
+        commodi dolorem sint.
+      </p>
+    </article>
+    <!-- Sidebar Headers -->
+    <aside>
+      <h3 id="about">About Me</h3>
+      <h4 id="work">Work</h4>
+      <h5 id="contact">Contact Me</h5>
+    </aside>
+    <!-- Vertical line -->
+    <div class="vl"></div>
+    <!-- Image links -->
+    <section>
+      <div class="container">
         <a class="surf-report" href="https://www.google.com">
-          <img
-            alt="Ocean"
-            src="https://www.earthmagazine.org/sites/earthmagazine.org/files/styles/half_width/public/2018-09/Atlantic_Ocean_Sunset_panoramio_promo.png?itok=Ct_PQ2XF"
-            width="600"
-            height="300"
-          />
+          <img alt="Ocean" src="assets/css/images/sunset.png" width="600" height="300" />
           <a class="led-wall" href="https://www.google.com">
-            <img
-              alt="LED Wall"
-              src="https://www.soundandcommunications.com/wp-content/uploads/2017/11/LED-Wall-Benefits.png"
-              width="600"
-              height="300"
-            />
-        </a>
+            <img alt="LED Wall" src="assets/css/images/led.png" width="600" height="300" />
+          </a>
       </div>
-      
-        <a class="calculator" href="https://www.google.com">
-          <img
-            alt="computer"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqOS2csoHVZ6VTGh5ic3JKuLWqSsJGlOenGg&usqp=CAU"
-            width="600"
-            height="300"
-          />
-          <a class="pastel-puzzels" href="https://www.google.com">
-            <img
-              alt="pastel blue"
-              src="https://www.99images.com/photos/wallpapers/3d-abstract/md/blue-pastel-aestheticandroid-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-54ejm.jpg?v=1577857443"
-              width="600"
-              height="300"
-            />
-            <a class="run-buddy" href="https://www.google.com">
-              <img
-                alt="map"
-                src="data:image/jpeg;base64,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"
-                width="600"
-                height="300"
-              />
-      </section>
-    </main>
-    <footer>
-      <section>
-        <ul>
-          <li>555.555.5555</li>
-          <li>lernantino@website.com</li>
-          <li>GitHub</li>
-          <li>Twitter</li>
-          <li>Spotify</li>
-        </ul>
-      </section>
-    </footer>
-  </body>
+      <a class="calculator" href="https://www.google.com">
+        <img alt="computer" src="assets/css/images/laptop.jpeg" width="600" height="300" />
+        <a class="pastel-puzzels" href="https://www.google.com">
+          <img alt="pastel blue" src="assets/css/images/Blue.jpeg" width="600" height="300" />
+          <a class="run-buddy" href="https://www.google.com">
+            <img alt="map" src="assets/css/images/map.jpeg" width="600" height="300" />
+    </section>
+  </main>
+  <footer>
+    <!-- Footer-->
+    <section>
+      <ul>
+        <li><a href="tel:555.555.5555">555.555.5555</a></li>
+        <li><a href="mailto:lernantino@website.com">lernantino@website.com</a></li>
+        <li><a href="http://www.github.com">GitHub</a></li>
+        <li><a href="http://www.twitter.com">Twitter</a></li>
+        <li><a href="http://www.spotify.com">Spotify</a></li>
+      </ul>
+    </section>
+  </footer>
+</body>
+
 </html>

@@ -6,12 +6,55 @@
 }
 /* Element Selectors */
 h1 {
-    font-size: 3em;
+    font-size: 50px;
+    order: 3px solid rgb(134, 202, 214);
+    background-color: rgb(134, 202, 214);
+    color: rgb(61, 61, 61);
+    position: relative;
+    width: 25%;
+    text-align: center;
+}
+
+h2{
+    border: 3px solid rgb(134, 202, 214);
+    background-color: rgb(134, 202, 214);
+    color: rgb(61, 61, 61);
+    position: relative;
+    width: 22%;
+ 
 }
 
 /* Class Selectors */
-.navbar li {
+
+nav ul {
 list-style-type: none;
+float: right;
+display: flex;
+margin: -150px 30px;
+}
+
+.nav-item {
+    color: rgb(134, 202, 214);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    display: block;
+    padding: 8px;
+}
+
+.fence {
+    margin: -40px auto;
+
 }
 
 /* Id Selectors */
+
+/* Vertical Line */
+.vl {
+    border-left: 6px solid rgba(16, 16, 121, 0.699);
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
