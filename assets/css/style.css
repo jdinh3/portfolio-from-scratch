@@ -21,8 +21,8 @@ h2{
     color: rgb(61, 61, 61);
     position: relative;
     width: 22%;
- 
-}
+}    
+
 
 /* Class Selectors */
 
@@ -30,7 +30,7 @@ nav ul {
 list-style-type: none;
 float: right;
 display: flex;
-margin: -150px 30px;
+margin: -110px 30px;
 }
 
 .nav-item {
@@ -42,11 +42,13 @@ margin: -150px 30px;
     padding: 8px;
 }
 
-.fence {
-    margin: -40px auto;
-
-}
-
+.hero-image {
+    background-image: url("./images/fence.jpeg");
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
 /* Id Selectors */
 
 /* Vertical Line */
