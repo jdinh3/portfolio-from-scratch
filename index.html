@@ -1,94 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="assets/css/reset.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
+  <body>
+    <header>
+      <div>
+        <h1>Jenny Dinh</h1>
+      </div>
+      <!-- navbar -->
+      <nav>
+        <ul>
+          <li><a class="nav-item" href="#about">About Me</a></li>
+          <li><a class="nav-item" href="#work">Work</a></li>
+          <li><a class="nav-item" href="#contact">Contact Me</a></li>
+          <li><a class="nav-item" href="#">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Background image -->
+    <div class="hero-image">
+      <h2 class="hero-text">Cool subtitle here!</h2>
+    </div>
+    <main>
+      <!-- About Me -->
+      <section id="about" class="section-container">
+        <h3 class="section-header">About Me</h3>
+        <div class="section-content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            aperiam provident adipisci saepe aliquam voluptas esse, dolorem
+            excepturi iusto nesciunt fugiat. Amet quisquam laboriosam illo
+            dolores consequuntur id labore harum iusto sint minima rerum,
+            ducimus non, nam dicta doloremque repellendus voluptatum iste
+            tenetur voluptatibus unde nesciunt.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
+            molestias rerum, numquam suscipit doloribus consequatur deserunt
+            accusantium mollitia odio ex ratione sit veritatis sunt quis
+            reprehenderit quam! Consequuntur quibusdam consequatur, eaque
+            ducimus suscipit adipisci pariatur quia error, facere autem quasi?
+            Consequuntur, quisquam fuga omnis voluptatibus eligendi nam illo
+            iusto repellendus reiciendis deserunt aliquam culpa minus cupiditate
+            dicta commodi dolorem sint.
+          </p>
+        </div>
+      </section>
 
-<body>
-  <header>
-    <div class="title">
-    <h1>Jenny Dinh</h1>
-    </div>
-    <!-- navbar -->
-    <nav>
-      <ul>
-        <li><a class="nav-item" href="#about">About Me</a></li>
-        <li><a class="nav-item" href="#work">Work</a></li>
-        <li><a class="nav-item" href="#contact">Contact Me</a></li>
-        <li><a class="nav-item" href="#">Resume</a></li>
-      </ul>
-    </nav>
-    <!-- Background Image -->
-  
-  </header>
-  <div class="hero-image">
-    <div class="hero-text">
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </div>
-  <main>
-    <!-- About Me -->
-    <article>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam
-        provident adipisci saepe aliquam voluptas esse, dolorem excepturi
-        iusto nesciunt fugiat. Amet quisquam laboriosam illo dolores
-        consequuntur id labore harum iusto sint minima rerum, ducimus non, nam
-        dicta doloremque repellendus voluptatum iste tenetur voluptatibus unde
-        nesciunt.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
-        molestias rerum, numquam suscipit doloribus consequatur deserunt
-        accusantium mollitia odio ex ratione sit veritatis sunt quis
-        reprehenderit quam! Consequuntur quibusdam consequatur, eaque ducimus
-        suscipit adipisci pariatur quia error, facere autem quasi?
-        Consequuntur, quisquam fuga omnis voluptatibus eligendi nam illo iusto
-        repellendus reiciendis deserunt aliquam culpa minus cupiditate dicta
-        commodi dolorem sint.
-      </p>
-    </article>
-    <!-- Sidebar Headers -->
-    <aside>
-      <h3 id="about">About Me</h3>
-      <h4 id="work">Work</h4>
-      <h5 id="contact">Contact Me</h5>
-    </aside>
-    <!-- Image links -->
-    <section>
-      <div class="container">
-        <a class="surf-report" href="https://www.google.com">
-          <img alt="Ocean" src="assets/css/images/sunset.png" width="400" height="200" />
-          <a class="led-wall" href="https://www.google.com">
-            <img alt="LED Wall" src="assets/css/images/led.png" width="400" height="200" />
-          </a>
-      <a class="calculator" href="https://www.google.com">
-        <img alt="computer" src="assets/css/images/laptop.jpeg" width="400" height="200" />
-        <a class="pastel-puzzels" href="https://www.google.com">
-          <img alt="pastel blue" src="assets/css/images/Blue.jpeg" width="400" height="200" />
-          <a class="run-buddy" href="https://www.google.com">
-            <img alt="map" src="assets/css/images/map.jpeg" width="400" height="200" />
+      <!-- Image links -->
+      <section id="work" class="section-container">
+        <h3 class="section-header">Work</h3>
+        <div class="section-content">
+          <div class="gallery">
+            <a class="surf-report gallery-card" href="https://www.google.com">
+              <div class="gallery-label">
+                <h4 class="gallery-main-text">Surf Report</h4>
+                <p class="gallery-sub-text">MERN Stack</p>
+              </div>
+              <img
+                class="gallery-image"
+                alt="Ocean"
+                src="assets/css/images/sunset.png"
+              />
+            </a>
+            <a class="led-wall gallery-card" href="https://www.google.com">
+              <div class="gallery-label">
+                <h4 class="gallery-main-text">LED Wall</h4>
+                <p class="gallery-sub-text">Node/IoT</p>
+              </div>
+              <img
+                class="gallery-image"
+                alt="LED Wall"
+                src="assets/css/images/led.png"
+              />
+            </a>
+            <a class="calculator gallery-card" href="https://www.google.com">
+              <div class="gallery-label">
+                <h4 class="gallery-main-text">Calculator</h4>
+                <p class="gallery-sub-text">React/Javascript/CSS</p>
+              </div>
+              <img
+                class="gallery-image"
+                alt="computer"
+                src="assets/css/images/laptop.jpeg"
+              />
+            </a>
+            <a
+              class="pastel-puzzels gallery-card"
+              href="https://www.google.com"
+            >
+              <div class="gallery-label">
+                <h4 class="gallery-main-text">Pastel Puzzels</h4>
+                <p class="gallery-sub-text">MERN Stack</p>
+              </div>
+              <img
+                class="gallery-image"
+                alt="pastel blue"
+                src="assets/css/images/Blue.jpeg"
+              />
+            </a>
+            <a class="run-buddy gallery-card" href="https://www.google.com">
+              <div class="gallery-label">
+                <h4 class="gallery-main-text">Run Buddy</h4>
+                <p class="gallery-sub-text">HTML/CSS</p>
+              </div>
+              <img
+                class="gallery-image"
+                alt="map"
+                src="assets/css/images/map.jpeg"
+              />
+            </a>
           </div>
-    </section>
-  </main>
-  <footer>
-    <!-- Footer-->
-    <section>
-      <ul>
-        <li><a href="tel:555.555.5555">555.555.5555</a></li>
-        <li><a href="mailto:lernantino@website.com">lernantino@website.com</a></li>
-        <li><a href="http://www.github.com">GitHub</a></li>
-        <li><a href="http://www.twitter.com">Twitter</a></li>
-        <li><a href="http://www.spotify.com">Spotify</a></li>
-      </ul>
-    </section>
-  </footer>
-</body>
-
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- Footer-->
+      <section id="contact" class="section-container">
+        <h3 class="section-header">Contact Me</h3>
+        <div class="section-content">
+          <ul>
+            <li><a href="tel:555.555.5555">555.555.5555</a></li>
+            <li>
+              <a href="mailto:jenny.p.dinh@gmail.com">jenny.p.dinh@gmail.com</a>
+            </li>
+            <li><a href="http://www.github.com">GitHub</a></li>
+            <li><a href="http://www.twitter.com">Twitter</a></li>
+            <li><a href="http://www.spotify.com">Spotify</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
