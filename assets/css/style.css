@@ -1,9 +1,11 @@
 /* Universal Selectors */
 * {
     font-family:Arial, Helvetica, sans-serif;
-    color:rgb(18, 59, 129);
+    color:rgb(12, 33, 68);
 }
 
+/* Element Selectors */
+/* Nav Bar Styles */
 nav ul {
     list-style-type: none;
     display: flex;      
@@ -14,37 +16,56 @@ a {
 }
 
 nav ul li {
-    color: blue;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid rgb(130, 206, 206);
     margin: 3px;
     padding: 2px;
-    
+}
+
+nav ul li a {
+    color:  rgb(130, 206, 206);
 }
 
 header {
-    background-color: grey;
+    background-color: rgb(53, 53, 53);
     display: flex;
     align-items:baseline;
     justify-content:space-between;
-    outline: 3px solid tomato;
 }
 
 header h1 {
-    background-color: rgb(69, 185, 185);
-    outline: 1px solid blue;
-    padding-left:40px;
+    background-color: rgb(130, 206, 206);
+    color:  rgb(53, 53, 53);
+    padding-left:45px;
+    padding-right: 40px;
 }
 
-header ul {
-    outline: 1px solid green;
+body {
+    background-color: rgb(224, 247, 255);
 }
+
+/* Class Selectors */
+
+.section-content ul {
+display: flex;
+list-style-type: none;
+
+}
+
+.section-content li {
+    margin: 5px;
+    padding: 10px;
+    border-bottom: 3px solid rgb(15, 23, 131);
+}
+
+
 
 h2.hero-text {
     position: absolute;
     bottom: 0;
-    right: 0;
-    background-color:rgb(69, 185, 185);
+    right: 30px;
+    background-color: rgb(130, 206, 206);
 }
+
 
 .hero-image {
     background-image: url(./images/fence.jpeg);
@@ -53,6 +74,15 @@ h2.hero-text {
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+ /* My photo */
+
+.my-photo {
+    position: absolute;
+    width:14%;
+    left:15px;
+    bottom: 25px;
 }
 
 .section-container {
@@ -68,19 +98,21 @@ padding-right: 15px;
 }
 
 .section-content {
-border-left: 3px solid blue;
+border-left: 3px solid rgb(15, 15, 129);
 width: 70%;
 padding-left: 20px;
 }
 
+/* Gallery Styles */
+
 .gallery {
 display: flex;
 flex-wrap: wrap;
-width: 850px;
+width: 860px;
 }
 
 .gallery-label {
-    background-color: rgb(69, 185, 185);
+    background-color: rgb(130, 206, 206);
     position: absolute;
     bottom: 20px;
     left: 0px;
@@ -88,10 +120,9 @@ width: 850px;
 }
 
 .gallery-card {
-    flex: 1 0 425px;
     position: relative;
-    border: 2px solid blue;
-    width: 425px;
+    border: 3px solid rgb(130, 206, 206);
+    width: 421px;
 }
 
 .gallery-main-text {
@@ -103,9 +134,33 @@ margin: 0;
 }
 
 .surf-report {
-    flex-grow: 2;
+    flex: 2 0 840px;
 }
 
 .gallery-image{
 width: 100%;
+}
+
+/* Pseudo-code for gallery images */
+
+.gallery-image:hover {
+    opacity: 0.5;
+}
+
+/* Tablets */
+@media screen and (max-width: 992px) {
+    .gallery-card {
+        width: 50%;  
+}
+
+/* Large Smartphones */
+@media screen and (max-width: 768px) {
+    .gallery-card {
+        width: 80%; 
+}
+/* Small Smartphones */
+@media screen and (max-width: 576px) {
+    .gallery-card {
+        width: 100%;
+
 }
