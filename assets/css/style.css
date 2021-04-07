@@ -73,16 +73,9 @@ body {
     color:rgb(59, 102, 93);
 }
 
-.about-section img {
-    width: 25%;
-}
-
-
-h2.hero-text {
-    position: absolute;
-    bottom: 0;
-    right: 30px;
-    background-color: rgb(190, 227, 219);
+.my-pic {
+    width: 170px;
+    height: auto;
 }
 
 
@@ -113,6 +106,7 @@ h2.hero-text {
     width: 70%;
     padding-left: 20px;
 }
+
 
 /* Gallery Styles */
 
