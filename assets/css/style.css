@@ -57,6 +57,20 @@ body {
     border-bottom: 3px solid rgb(15, 23, 131);
 }
 
+.about-section {
+    display: flex;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.about-section p {
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.about-section img {
+    width: 25%;
+}
 
 
 h2.hero-text {
@@ -68,7 +82,7 @@ h2.hero-text {
 
 
 .hero-image {
-    background-image: url(./images/fence.jpeg);
+    background-image: url(/Users/jenniferdinh/gt/homework/portfolio-from-scratch/assets/css/images/240_F_282596489_E2FS0TdEQxF4vZnUeNYpOMwiSGKhM1WR.jpeg);
     height: 300px;
     width: 100%;
     background-size: cover;
@@ -139,6 +153,7 @@ h2.hero-text {
 
 .gallery-image {
     width: 100%;
+    height: 100%;
 }
 
 /* Pseudo-code for gallery images */
@@ -152,16 +167,16 @@ h2.hero-text {
     .gallery-card {
         width: 50%;
     }
-
+}
     /* Large Smartphones */
     @media screen and (max-width: 768px) {
         .gallery-card {
             width: 80%;
         }
-
+    }
         /* Small Smartphones */
         @media screen and (max-width: 576px) {
             .gallery-card {
                 width: 100%;
-
-            }
+}
+        }
