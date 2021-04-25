@@ -62,7 +62,6 @@ body {
 }
 
 .about-section {
-    display: flex;
     margin: 5px;
     font-size: 18px;
 }
